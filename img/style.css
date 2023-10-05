@@ -1,15 +1,12 @@
-/* Reset de estilos para remover margens e preenchimentos padrão */
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
 }
 
-/* Defina uma fonte padrão para todo o site */
 body {
     font-family: Arial, sans-serif;
 }
 
-/* Estilize o cabeçalho do site */
 header {
     background-color: #333;
     color: #fff;
@@ -32,7 +29,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Estilize os destaques de livros */
 #destaques {
     margin: 20px;
 }
@@ -49,7 +45,6 @@ nav ul li a {
     max-width: 100%;
 }
 
-/* Estilize as categorias de livros */
 #categorias {
     margin: 20px;
 }
@@ -67,12 +62,10 @@ nav ul li a {
     color: #333;
 }
 
-/* Estilize a seção "Sobre Nós" */
 #sobre-nos {
     margin: 20px;
 }
 
-/* Estilize o rodapé */
 footer {
     background-color: #333;
     color: #fff;
@@ -80,7 +73,6 @@ footer {
     padding: 10px;
 }
 
-/* Estilo para links */
 a {
     color: #007BFF;
     text-decoration: none;
