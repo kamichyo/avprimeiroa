@@ -1,0 +1,91 @@
+/* Reset de estilos para remover margens e preenchimentos padrão */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Defina uma fonte padrão para todo o site */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilize o cabeçalho do site */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilize os destaques de livros */
+#destaques {
+    margin: 20px;
+}
+
+.livro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 30%;
+}
+
+.livro img {
+    max-width: 100%;
+}
+
+/* Estilize as categorias de livros */
+#categorias {
+    margin: 20px;
+}
+
+#categorias ul {
+    list-style-type: none;
+}
+
+#categorias ul li {
+    margin-bottom: 10px;
+}
+
+#categorias ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilize a seção "Sobre Nós" */
+#sobre-nos {
+    margin: 20px;
+}
+
+/* Estilize o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
