@@ -3,6 +3,9 @@ background-image: url("tokyo-revengers.jpeg.webp");
 background-repeat: no-repeat;
 background-size: cover;
 }
+p{
+    font-size: 30px;
+}
 h1{
 text-align: center;
 color: rgb(255, 208, 0);
