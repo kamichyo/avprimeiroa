@@ -1,19 +1,19 @@
 body{
-background-image: url("tokyo-revengers.jpeg.webp");
-background-repeat: no-repeat;
-background-size: cover;
-}
-h1{
-text-align: center;
-color: rgb(255, 208, 0);
-font-size: 50px;
-}
-.botao{
-    background-color: rgb(234, 234, 234);
-    color: rgb(215, 119, 1);
-    border: none;
-    text-align: center;
-    padding: 10px 20px;
-    display: inline-block;
-    cursor: pointer;
-}
+    background-color: rgba(218, 45, 45, 0.849);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    h1{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        }
+        .botao{
+            background-color: rgb(234, 234, 234);
+            color: rgba(151, 151, 151, 0.808);
+            border: none;
+            text-align: center;
+            padding: 10px 20px;
+            display: inline-block;
+            cursor: pointer;
+        }
