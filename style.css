@@ -1,84 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Meu Site Básico</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
+/* Reset de estilos padrão do navegador */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
 
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
+header h1 {
+    margin: 0;
+}
 
-        nav a {
-            text-decoration: none;
-            color: #333;
-        }
+nav ul {
+    list-style: none;
+}
 
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
-        section {
-            margin-bottom: 20px;
-        }
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Bem-vindo ao Meu Site Básico</h1>
-    </header>
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
 
-    <nav>
-        <ul>
-            <li><a href="#">Página Inicial</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
+section {
+    margin-bottom: 20px;
+}
 
-    <main>
-        <section>
-            <h2>Sobre</h2>
-            <p>Esta é a página de exemplo do meu site básico. Você pode adicionar informações sobre você ou seu site aqui.</p>
-        </section>
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
 
-        <section>
-            <h2>Contato</h2>
-            <p>Você pode entrar em contato conosco através do seguinte endereço de e-mail: <a href="mailto:seuemail@example.com">seuemail@example.com</a></p>
-        </section>
-    </main>
+/* Links */
+a {
+    color: #007BFF;
+}
 
-    <footer>
-        <p>&copy; 2023 Meu Site Básico</p>
-    </footer>
-</body>
-</html>
+a:hover {
+    text-decoration: underline;
+}
